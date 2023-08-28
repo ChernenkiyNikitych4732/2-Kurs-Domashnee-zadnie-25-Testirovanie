@@ -1,4 +1,4 @@
-package sky.pro.course2homework.testing
+package sky.pro.course2homework.testing;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -7,10 +7,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @Disabled
 @SpringBootTest
-class CalculatorApplicationTests {
+class CalculatorApplicationTest {
 
-@Test
-void contextLoads() { 
+    @Test
+    void contextLoads() {
 
     }
+
 }
